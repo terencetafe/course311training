@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riley's 1st Birthday</title>
+    <style>
+        body {
+            font-family: 'bookman old style','baskerville old face', sans-serif;
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .card {
+            width: 900px;
+            height: 642px;
+            margin: auto;
+            /* background-color: #fff; */
+            /* Background color with opacity */
+            /* border-radius: 10px; */
+            /* padding: 50px; */
+            padding-top: 70px;
+            background-image: url('BirthdayBackground.png');
+            /* Background image */
+            background-repeat: no-repeat;
+        }
+
+        .invitation {
+            display: flex;
+        }
+
+        .content {
+            padding-left: 10px;
+        }
+
+        h1 {
+            color: #72a9df;
+            font-size: 3.3em;
+            line-height: 0.7em;
+            font-family:  Segoe Print, cursive;
+            text-align: center;
+          }
+
+        h2 {
+            color: #72a9df;
+            font-size: 2.7em;
+            line-height: 0.7em;
+            /* font-family:  Segoe Print, cursive; */
+            font-family:  Segoe Print, cursive;
+            text-align: center;
+
+        }
+
+
+        p {
+            font-size: 1.2em;
+            line-height: 1em;
+            color: #555;
+            text-align: center;
+            text-transform: uppercase;
+            /* Convert text to uppercase */
+        }
+
+        p::first-letter {
+            font-size: 1.2em;
+            /* Increase font size for the first letter of each paragraph */
+        }
+
+        img {
+            margin-left: 70px;
+        }
+
+        hr {
+            border: 0;
+            height: 2px;
+            background-color: #ddd;
+            margin: 20px 0;
+        }
+
+        sup {
+            font-size: 0.7em;
+            text-transform: lowercase;
+        }
+
+        a {
+            color: #4f66eb;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>Look Whooo's Turning One!</h1>
+
+        <div class="invitation">
+
+            <div class="picture">
+                <img src='owl.png' alt='Owl on a branch'>
+            </div>
+
+            <div class="content">
+                <p><i>You<sup><strong>'</strong></sup>re Invited to Celebrate</i></p>
+                <h2>Riley's 1<sup>st</sup> Birthday</h2>
+                <p>Sunday 26<sup>th</sup> March 2024, 2 pm - 6 pm</p>
+                <p>The Matthew<sup><strong>'</strong></sup>s Residence<br>123 St. Peters Lane<br>St. Peters, NSW 2044</p>
+                <hr>
+                <p>RSVP to Lindsey by March 12<br><a href="tel:0412345678">0412345678</a> or <a
+                        href="mailto:lindz06@yahoo.com">lindz06@yahoo.com</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
